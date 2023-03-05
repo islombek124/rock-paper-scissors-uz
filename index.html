@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tosh Qaychi va Qog'oz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="game" id="game" role="main">
+      <div class="score">
+        <div class="player-score">
+          <h2>O'yinchi</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Kompyuter</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>Tosh Qaychi va Qog'oz</h1>
+        <button class="startBtn">O'yinni boshlash</button>
+      </div>
+
+      <div class="match">
+        <h2 class="winner">Variantni tanlang</h2>
+        <div class="hands">
+          <img class="player-hand" src="assets/rock.png" alt="" />
+          <img class="computer-hand" src="assets/rock.png" alt="" />
+        </div>
+        <div class="options">
+          <button class="rock" value="rock">Tosh</button>
+          <button class="scissors" value="scissors">Qaychi</button>
+          <button class="paper" value="paper">Qog'oz</button>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
